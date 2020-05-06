@@ -1,1 +1,4 @@
 *.jpg
+__pycache__
+testing.py
+*.pickle
