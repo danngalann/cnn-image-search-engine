@@ -7,7 +7,7 @@ import cv2
 class FeatureExtractor:
     def __init__(self):
         self.model = tf.keras.Sequential([
-            hub.KerasLayer("https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4", output_shape=[1280],
+            hub.KerasLayer("https://tfhub.dev/google/imagenet/resnet_v2_50/feature_vector/4", output_shape=[1280],
                         trainable=False)
         ])
         self.model.build([None, 224, 224, 3])
