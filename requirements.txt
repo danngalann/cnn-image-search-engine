@@ -2,5 +2,5 @@ imutils==0.5.3
 Keras==2.3.1
 numpy==1.18.2
 opencv-contrib-python==4.2.0.32
-tensorflow-gpu==2.1.0
+tensorflow-gpu==2.1.2
 tensorflow-hub==0.8.0
